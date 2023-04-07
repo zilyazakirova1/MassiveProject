@@ -12,6 +12,9 @@ public class Main {
         System.out.println("Сумма всех продаж: "+service.sumSales(sales));
         System.out.println("Средняя сумма всех продаж: "+service.averageSales(sales));
         System.out.println("Пик продаж: "+service.maxSales(sales));
+        System.out.println("Минимум продаж: "+service.minSales(sales));
+        System.out.println("Сумма месяцев продаж ниже среднего: "+service.sumLowAverage(sales));
+        System.out.println("Сумма месяцев продаж выше среднего: "+service.sumHighAverage(sales));
 
     }
 }

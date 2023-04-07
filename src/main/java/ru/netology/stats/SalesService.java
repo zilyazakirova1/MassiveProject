@@ -44,7 +44,7 @@ public class SalesService {
         int avg = averageSales(sales);
         int lowMonths = 0;
         for (int i = 0; i < sales.length; i++) {
-            if (sales[i] < avg) {
+            if (sales[i] <= avg) {
                 lowMonths++;
             }
         }
